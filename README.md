@@ -108,7 +108,7 @@ Clone the repository:
 
 Bash
 
-git clone https://github.com/yourusername/memomind-protocol.git
+git clone https://github.com/krimler/memomind-protocol.git
 cd memomind-protocol
 Install dependencies (conceptual):
 

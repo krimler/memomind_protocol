@@ -1,6 +1,6 @@
-MemoMind Protocol: An Explainable Reinforcement Learning Framework for Efficient and Adaptive LLM Agents 🧠🚀
+MemoMind: An Explainable Reinforcement Learning Framework for Efficient and Adaptive LLM Agents 🧠🚀
 Overview
-The MemoMind Protocol is an innovative framework designed to enhance the efficiency, adaptability, and explainability of Large Language Model (LLM) agents, particularly in complex, multi-step tasks. By leveraging a distributed semantic cache and Reinforcement Learning (RL), MemoMind transforms the behavior of resource-intensive LLM ensembles into a single, optimized, and transparent agent capable of intelligent decision-making.
+The MemoMind is an innovative framework designed to enhance the efficiency, adaptability, and explainability of Large Language Model (LLM) agents, particularly in complex, multi-step tasks. By leveraging a distributed semantic cache and Reinforcement Learning (RL), MemoMind transforms the behavior of resource-intensive LLM ensembles into a single, optimized, and transparent agent capable of intelligent decision-making.
 
 The Problem 📉
 Modern LLM agents, while powerful, face significant challenges when tackling multi-step tasks or operating in ensemble configurations:

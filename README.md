@@ -135,8 +135,25 @@ Scalability Testing: Evaluating performance on larger, more complex multi-step t
 
 Dynamic Step Sequencing: Allowing the RL agent to also learn the optimal order of steps, not just the action within a fixed order.
 
-Complex Shared State: Developing more intricate mechanisms for agents to share and react to rich, structured intermediate states.
+# Rapid Verification of Caching
 
+This repo provides a small, theory-guided tool to decide if contextual caching is worth deploying.
+
+## What it checks
+1. **Hit rate** at cosine threshold `tau` with a Wilson lower bound.
+2. **Reuse precision** (cache vs fresh agreement) with a one-sided Hoeffding lower bound.
+3. **Net benefit** lower bound using your compute/penalty costs.
+
+Caching is **Go** iff all three lower bounds pass.
+
+## Quick start
+```bash
+python -m venv .venv && source .venv/bin/activate
+pip install numpy
+python demo_simulation.py
+
+Complex Shared State: Developing more intricate mechanisms for agents to share and react to rich, structured intermediate states.
+```
 Contributing 🤝
 We welcome contributions! If you're interested in advancing the MemoMind Protocol, please feel free to open issues or submit pull requests.
 
